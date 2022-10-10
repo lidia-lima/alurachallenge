@@ -1,0 +1,62 @@
+.banner {
+    text-align: center;
+    padding: 6em 10em;    
+}
+
+.banner__subtitulo {
+    color: var(--vinho);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.banner__titulo {
+    color: var(--cor-titulo);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.banner__texto {
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 10em;
+}
+
+.banner-secundario {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    background: rgba(196, 25, 25, 0.03);;
+    margin: 3em 5em;
+    width: auto;
+    height: 404px;
+    padding: 3em 3em;
+}
+
+.banner-container__subtitulo {
+    color: var(--vinho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner-container__titulo {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 500;
+    margin: 1em 3em;
+}
+
+.banner-container__nome {
+    color: var(--cor-titulo);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 1em;
+}
+
+.banner-container__texto {
+    color: var(--cor-texto);
+    font-size: 14px;
+}

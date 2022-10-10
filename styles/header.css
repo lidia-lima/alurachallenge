@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5em;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__titulo {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0.4em;
+}
+
+.lista-menu {
+    display: flex;
+}
+
+.lista-menu__item {
+    padding: 1em;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: var(--cinza-claro);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container_cadastro {
+    display: flex;
+    align-items: center;
+    margin-left: 15em;
+}
+
+.cadastro__link {
+    padding: 1em;
+    text-decoration: none;
+}
+
+.cadastro-texto {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cadastro-texto__entrar {
+    color: var(--cinza-claro);
+}
+
+.cadastro-texto__cadastrar {
+    color: #FFFFFF;
+    border: 1px solid var(--vinho);
+    border-radius: 8px;
+    padding: 0.8em 1.5em;
+    background-color: var(--vinho);
+}

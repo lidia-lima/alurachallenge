@@ -1,0 +1,21 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+@import url("styles/rodape.css");
+
+:root {
+    --fonte-principal: "Inter";
+    --cor-de-fundo: #FFFFFF;
+    --cor-titulo: #101828;
+    --cor-texto: #667085;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --vinho: #8E2424;
+    --fundo-rodape: #F9FAFB;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}

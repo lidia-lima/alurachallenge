@@ -1,0 +1,56 @@
+footer {
+    background-color: #F9FAFB;
+    width: 100%;
+}
+
+.rodape {
+    text-align: center;
+    padding: 5em 0;
+
+
+}
+
+.rodape-titulo {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0.5em
+}
+
+.rodape-texto {
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.5em 0 1.5em 0;
+}
+
+.rodape-cadastro {
+    padding: 1em 1em;
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+    width: 20%;
+    margin-bottom: 3em;
+}
+
+.rodape-cadastro::placeholder {
+    font-size: 16px;
+}
+
+.cadastrar {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border: 1px solid var(--vinho);
+    border-radius: 8px;
+    background: var(--vinho);
+    padding: 0.8em 0.2em;
+    width: 8%;
+    margin-left: 0.5em;
+}
+
+.copyright {
+    color: #98A2B3;
+    font-size: 16px;
+    font-weight: 400;
+}
